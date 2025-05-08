@@ -22,7 +22,7 @@ export default function StoryPage() {
         if (entry.isIntersecting && stories[nextId]) {
           bottomTimeout = setTimeout(() => {
             window.location.href = `/story/${nextId}`;
-          }, 3000);
+          }, 1000);
         } else {
           clearTimeout(bottomTimeout);
         }
