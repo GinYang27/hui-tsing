@@ -1,10 +1,13 @@
-function StoryTemplate({ title, blocks }) {
+function StoryTemplate({ title, subtitle, blocks }) {
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white p-6">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-3xl font-bold tracking-wide text-pink-700 text-center mb-10 font-serif">
+        <h1 className="text-3xl font-bold tracking-wide text-pink-700 text-center mb-4 font-serif">
           {title}
         </h1>
+        {subtitle && (
+          <p className="text-center text-base text-gray-500 mb-6">{subtitle}</p>
+        )}
         {blocks.map((block, idx) => (
           <div key={idx} className="mb-12 text-center">
             {block.image && (

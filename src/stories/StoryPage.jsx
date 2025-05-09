@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { useParams } from "react-router-dom";
 import StoryTemplate from "../components/StoryTemplate";
 import stories from "./storiesData";
@@ -8,51 +8,6 @@ export default function StoryPage() {
   const story = stories[id];
   const prevId = String(parseInt(id) - 1);
   const nextId = String(parseInt(id) + 1);
-  const endRef = useRef(null);
-  const topRef = useRef(null);
-
-  useEffect(() => {
-    if (window.innerWidth >= 768) return;
-
-    let topTimeout = null;
-    let bottomTimeout = null;
-
-    const observerBottom = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && stories[nextId]) {
-          bottomTimeout = setTimeout(() => {
-            window.location.href = `/story/${nextId}`;
-          }, 1000);
-        } else {
-          clearTimeout(bottomTimeout);
-        }
-      },
-      { threshold: 1.0 }
-    );
-
-    const observerTop = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && stories[prevId]) {
-          topTimeout = setTimeout(() => {
-            window.location.href = `/story/${prevId}`;
-          }, 3000);
-        } else {
-          clearTimeout(topTimeout);
-        }
-      },
-      { threshold: 1.0 }
-    );
-
-    if (endRef.current) observerBottom.observe(endRef.current);
-    if (topRef.current) observerTop.observe(topRef.current);
-
-    return () => {
-      observerBottom.disconnect();
-      observerTop.disconnect();
-      clearTimeout(topTimeout);
-      clearTimeout(bottomTimeout);
-    };
-  }, [id]);
 
   if (!story) {
     return <div className="p-8 text-red-500">故事不存在</div>;
@@ -60,27 +15,32 @@ export default function StoryPage() {
 
     return (
     <>
-      <div ref={topRef} className="h-1"></div>
-      <StoryTemplate title={story.title} blocks={story.blocks} />
-      <div ref={endRef} className="h-1"></div>
-      <div className="hidden md:flex justify-between max-w-xl mx-auto mb-4 px-4">
+      <StoryTemplate title={story.title} subtitle={story.date} blocks={story.blocks} />
+      <div className="flex flex-row justify-between items-center gap-4 max-w-lg mx-auto mt-8 px-4 text-center">
         {stories[prevId] ? (
           <a
             href={`/story/${prevId}`}
-            className="text-blue-500 hover:underline text-sm md:text-base"
+            className="text-blue-500 hover:underline text-base text-center w-20"
           >
-            ← Previous
+            ← Prev
           </a>
-        ) : <div />} {/* 占位，保持下一页在右对齐 */}
+        ) : <div className="w-20" />} {/* 占位 */}
 
-        {stories[nextId] && (
+        <a
+          href="/"
+          className="text-gray-500 underline hover:text-gray-700 text-base text-center w-20"
+        >
+          Home
+        </a>
+
+        {stories[nextId] ? (
           <a
             href={`/story/${nextId}`}
-            className="text-blue-500 hover:underline text-sm md:text-base ml-auto"
+            className="text-blue-500 hover:underline text-base text-cente w-20"
           >
             Next →
           </a>
-        )}
+        ) : <div className="w-20" />} {/* 占位 */}
       </div>
     </>
   );

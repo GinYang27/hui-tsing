@@ -1,6 +1,7 @@
 const stories = {
   "1": {
     title: "燃烧",
+    date: "01/02/2024",
     blocks: [
       {
         image: "https://jinstaticasset.blob.core.windows.net/photos/ranshao_1.jpg",
@@ -14,6 +15,21 @@ const stories = {
   },
   "2": {
     title: "一起的旅行",
+    date: "01/02/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/ririshihaori_1.jpg",
+        text: "那次出发，是我们最自由的决定。",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/ririshihaori_2.jpg",
+        text: "那次出发，是我们最自由的决定。啊啊谁打谁都啊谁懂啊,"
+      },
+    ],
+  },
+  "3": {
+    title: "一起的旅行2",
+    date: "01/02/2024",
     blocks: [
       {
         image: "https://jinstaticasset.blob.core.windows.net/photos/ririshihaori_1.jpg",
