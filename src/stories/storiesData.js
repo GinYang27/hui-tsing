@@ -4,11 +4,11 @@ const stories = {
     date: "01/22/2023",
     blocks: [
       {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/1_1.jpg",
+        image: "https://jinstaticasset.blob.core.windows.net/photos/1_2.jpg",
         text: "顾飞星, 没有99次了, 这是最后一次了, 抱歉啊, 实现不了你的第三个愿望了, 但是, 我爱你",
       },
       {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/1_2.jpg",
+        image: "https://jinstaticasset.blob.core.windows.net/photos/1_1.jpg",
         text: "我愿意, 我答应你, 你不要离开我好不好, 这已经是第99次了蒋文明, 已经够了, 我愿意! 我愿意!",
       },
     ],
@@ -313,11 +313,11 @@ const stories = {
     blocks: [
       {
         image: "https://jinstaticasset.blob.core.windows.net/photos/21_1.jpeg",
-        text: "用十万手无寸铁的百姓，换十万大量精兵，值得。",
+        text: "用十万手无寸铁的百姓，换十万大凉精兵，值得。",
       },
       {
         image: "https://jinstaticasset.blob.core.windows.net/photos/21_2.jpeg",
-        text: "姜酒月不要轮回，不要来生，只愿在这血肉筑成的南墙之中，永世禁锢。做一个酒馆的主人——以换三个愿望。一愿十万莲城百姓得以转世重生。二愿所有不甘灵魂，只要来此祈求，撞破南墙，便可更改时空，倒施轮回，令残缺事圆满，使不平者翻天。三愿，虞皇李旭，完成你想要他完成的一切，要他这条千万人换回的贱命，做一个明君。",
+        text: "姜酒月不要轮回。一愿十万莲城百姓得以转世重生。二愿所有不甘灵魂，只要来此祈求，撞破南墙，便可更改时空。三愿，虞皇李旭，要他这条千万人换回的贱命，做一个明君。",
       },
     ],
   },
