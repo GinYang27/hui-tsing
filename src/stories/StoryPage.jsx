@@ -16,7 +16,7 @@ export default function StoryPage() {
     return (
     <>
       <StoryTemplate title={story.title} subtitle={story.date} blocks={story.blocks} />
-      <div className="flex flex-row justify-between items-center gap-4 max-w-lg mx-auto mt-8 px-4 text-center">
+      <div className="flex flex-row justify-between gap-4 max-w-lg mx-auto mt-8 px-4 text-center h-16">
         {stories[prevId] ? (
           <a
             href={`/story/${prevId}`}
