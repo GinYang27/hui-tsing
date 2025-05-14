@@ -27,7 +27,7 @@ export default function StoryPage() {
       date: "05/16/2025",
       blocks: [
         {
-          image: "https://jinstaticasset.blob.core.windows.net/photos/now_1.jpg",
+          image: "https://jinstaticasset.blob.core.windows.net/photos/now_1.jpeg",
           text: "谢谢你一直以来，是我故事里的唯一女主角。"
         }
       ],
