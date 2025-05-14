@@ -224,76 +224,6 @@ const stories = {
     ],
   },
   "17": {
-    title: "苍歧2-青川",
-    date: "03/10/2024",
-    blocks: [
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/17_1.jpeg",
-        text: "阿礼啊，请替我守护好这片土地，保护好浅浅，这不只是我的青川，也是你的青川。",
-      },
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/17_2.jpeg",
-        text: "青川的公主，永远只做正确的选择，阿礼谨遵公主遗志，还青山一片山和大好，还青川一个海清河晏。",
-      },
-    ],
-  },
-  "18": {
-    title: "河西家万里",
-    date: "04/13/2024",
-    blocks: [
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/18_1.jpeg",
-        text: "沉默，不是因为没有话说，而是有太多的话想说，却不知从何说起。",
-      },
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/18_2.jpeg",
-        text: "我们身上流淌着那些平凡而又伟大的血脉。就像那条红色的河，生生不息，永远向前。",
-      },
-    ],
-  },
-  "19": {
-    title: "大浪",
-    date: "05/01/2024",
-    blocks: [
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/19_1.jpeg",
-        text: "漱石小姐，今天是你诞生的第10亿秒，31岁7个月9小时4分钟20秒，你愿意做我永远的卡戎吗？",
-      },
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/19_2.jpeg",
-        text: "光锥之内，皆是命运。但就算命运注定发生，也不能失去遇见的勇气。",
-      },
-    ],
-  },
-  "20": {
-    title: "叙清梦",
-    date: "06/08/2024",
-    blocks: [
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/20_1.jpeg",
-        text: "你说，你只要权力和地位。其实，我想告诉你，这些远远不够，我还要给你们姐弟一个家。",
-      },
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/20_2.jpeg",
-        text: "事多妨 梦难长 一点深情 半壁斜阳 ",
-      },
-    ],
-  },
-  "21": {
-    title: "南墙2",
-    date: "05/11/2024",
-    blocks: [
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/21_1.jpeg",
-        text: "用十万手无寸铁的百姓，换十万大量精兵，值得。",
-      },
-      {
-        image: "https://jinstaticasset.blob.core.windows.net/photos/21_2.jpeg",
-        text: "姜酒月不要轮回，不要来生，只愿在这血肉筑成的南墙之中，永世禁锢。做一个酒馆的主人——以换三个愿望。一愿十万莲城百姓得以转世重生。二愿所有不甘灵魂，只要来此祈求，撞破南墙，便可更改时空，倒施轮回，令残缺事圆满，使不平者翻天。三愿，虞皇李旭，完成你想要他完成的一切，要他这条千万人换回的贱命，做一个明君。",
-      },
-    ],
-  },
-  "22": {
     title: "悠悠寸草心",
     date: "01/20/2024",
     blocks: [
@@ -307,7 +237,21 @@ const stories = {
       },
     ],
   },
-  "23": {
+  "18": {
+    title: "苍歧2-青川",
+    date: "03/10/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/17_1.jpeg",
+        text: "阿礼啊，请替我守护好这片土地，保护好浅浅，这不只是我的青川，也是你的青川。",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/17_2.jpeg",
+        text: "青川的公主，永远只做正确的选择，阿礼谨遵公主遗志，还青山一片山和大好，还青川一个海清河晏。",
+      },
+    ],
+  },
+  "19": {
     title: "星光电台",
     date: "03/24/2024",
     blocks: [
@@ -321,7 +265,7 @@ const stories = {
       },
     ],
   },
-  "24": {
+  "20": {
     title: "归途七万里",
     date: "03/31/2024",
     blocks: [
@@ -332,6 +276,62 @@ const stories = {
       {
         image: "https://jinstaticasset.blob.core.windows.net/photos/24_2.jpeg",
         text: "为之而生，为之荣耀而历经坎坷，为之人权而先丧人权，为之而死，生前掌上千秋，身后碑上无名，悄然无声。",
+      },
+    ],
+  },
+  "21": {
+    title: "河西家万里",
+    date: "04/13/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/18_1.jpeg",
+        text: "沉默，不是因为没有话说，而是有太多的话想说，却不知从何说起。",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/18_2.jpeg",
+        text: "我们身上流淌着那些平凡而又伟大的血脉。就像那条红色的河，生生不息，永远向前。",
+      },
+    ],
+  },
+  "22": {
+    title: "大浪",
+    date: "05/01/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/19_1.jpeg",
+        text: "漱石小姐，今天是你诞生的第10亿秒，31岁7个月9小时4分钟20秒，你愿意做我永远的卡戎吗？",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/19_2.jpeg",
+        text: "光锥之内，皆是命运。但就算命运注定发生，也不能失去遇见的勇气。",
+      },
+    ],
+  },
+  "23": {
+    title: "南墙2",
+    date: "05/11/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/21_1.jpeg",
+        text: "用十万手无寸铁的百姓，换十万大量精兵，值得。",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/21_2.jpeg",
+        text: "姜酒月不要轮回，不要来生，只愿在这血肉筑成的南墙之中，永世禁锢。做一个酒馆的主人——以换三个愿望。一愿十万莲城百姓得以转世重生。二愿所有不甘灵魂，只要来此祈求，撞破南墙，便可更改时空，倒施轮回，令残缺事圆满，使不平者翻天。三愿，虞皇李旭，完成你想要他完成的一切，要他这条千万人换回的贱命，做一个明君。",
+      },
+    ],
+  },
+  "24": {
+    title: "叙清梦",
+    date: "06/08/2024",
+    blocks: [
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/20_1.jpeg",
+        text: "你说，你只要权力和地位。其实，我想告诉你，这些远远不够，我还要给你们姐弟一个家。",
+      },
+      {
+        image: "https://jinstaticasset.blob.core.windows.net/photos/20_2.jpeg",
+        text: "事多妨 梦难长 一点深情 半壁斜阳 ",
       },
     ],
   },

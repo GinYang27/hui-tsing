@@ -9,7 +9,7 @@ export default function Home() {
         {Object.entries(stories).map(([id, story]) => (
           <li key={id}>
             <Link to={`/story/${id}`} className="text-blue-500 hover:underline">
-              {story.title}
+              {id} - {story.date} - {story.title}
             </Link>
           </li>
         ))}
